@@ -1,0 +1,39 @@
+<div class="carousel">
+    <div *ngIf="!slides; else elseBlock">
+        <app-spinner></app-spinner>
+    </div>
+    <ng-template #elseBlock>
+        <ng-container *ngFor="let slide of slides; let i = index">
+            <img
+                *ngIf="i === currentSlide"
+                [src]="slide.src"
+                class="slide"
+            />
+    
+            <div class="ghilimele-image">
+                <img [src]="slide.ghilimele"/>
+            </div>
+    
+            <div *ngIf="i === currentSlide" class="content-text">
+                <p>
+                    {{ slide.text }} 
+                    <i class="material-icons">format_quote</i>
+                </p>
+                <span><i>-</i>{{ slide.authorName }}</span>
+            </div>
+
+            <div class="vezi-video">
+                <button mat-stroked-button (click)="openVideoModal()">Vezi video integral</button>
+            </div>
+        </ng-container>
+    </ng-template>
+    
+  
+    <!-- controls -->
+    <button class="control prev" (click)="onPreviousClick()">
+        <span class="arrow left"></span>
+    </button>
+    <button class="control next" (click)="onNextClick()">
+        <span class="arrow right"></span>
+    </button>
+</div>

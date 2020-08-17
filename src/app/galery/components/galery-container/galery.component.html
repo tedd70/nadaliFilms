@@ -1,0 +1,23 @@
+<section class="galery-section">
+  <div *ngIf="galeryTitle" class="galery-title">
+    <h1>{{ galeryTitle }}</h1>
+  </div>
+
+  <div class="galery-container">
+    <div *ngFor="let value of galeryData; let i = index">
+      <div *ngIf="value.videoImage || value.videoTitle" class="galery-content">
+        <button (click)="openVideoModal(i)">
+          <div class="image-service">
+            <img src={{value.videoImage}}>
+          </div>
+  
+          <i class="material-icons">play_circle_filled</i>
+        </button>
+  
+        <div class="video-title">
+          <p>{{value.videoTitle}}</p>
+        </div>
+      </div>
+    </div>
+  </div> 
+</section>

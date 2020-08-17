@@ -1,0 +1,131 @@
+.contact-form-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+    color: #496077;
+
+    .p-phone-number {
+      margin-bottom: 8px;
+    }
+
+    .p-email-contact {
+      margin-bottom: 72px;
+    }
+
+    .admin-actions {
+      display: flex;
+
+      a {
+        border-radius: 48px;
+        padding: 16px 32px;
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          font-size: 24px;
+        }
+
+        i {
+          font-size: 24px;
+          margin-right: 8px;
+        }
+
+        &:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+      }
+
+      .call {
+        background-color: #496077;
+        margin-right: 8px;
+      }
+
+      .write {
+        background-color: #0084ff;   
+      }
+    }
+  }
+
+  form {
+    width: 480px;
+
+    .form-content {
+      display: flex;
+      flex-direction: column;
+
+      ::placeholder {
+        color: white;
+      }
+
+      .name, 
+      .email, 
+      .message {
+        background-color: #496077;
+        color: #ffffff;
+        border: 1px solid #496077;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        padding: 16px;
+        outline: 0;
+        font-size: 18px;
+
+        &:last-of-type(){
+          margin: 0;
+        }
+      }
+    
+      .submitForm {
+        border: 1px solid #496077;
+        border-radius: 4px;
+        background-color: #eceef0;
+        color: #496077;
+        transition: all 0.4s ease-in-out;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        cursor: pointer;
+        padding: 16px;
+        font-size: 18px;
+        font-weight: bold;
+        outline: 0;
+        // cursor: not-allowed;
+
+        &:hover {
+          background-color: #496077;
+          color: #eceef0;
+        }
+
+        &:disabled {
+          background-color: darkgray;
+          color: #eceef0;
+          cursor: not-allowed;
+          border: 1px solid darkgray;
+        }
+      }
+
+      .checkbox {
+        margin-bottom: 16px;
+
+        #checkbox {
+          cursor: pointer;
+        }
+
+        label {
+          color: #496077;
+          text-align: justify;
+          font-size: 14px;
+          cursor: pointer;
+        }                
+      }
+    }
+  }
+}

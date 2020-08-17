@@ -1,0 +1,31 @@
+<div class="video-modal-section">
+  <mat-dialog-content class="mat-typography">
+    <video
+      *ngIf="state; else elseErr"
+      width="600"
+      autoplay
+      controls
+      controlsList="nodownload"
+      disablePictureInPicture
+    >
+      <source
+        [src]="galeryVideo"
+        type="video/mp4"
+      >
+    </video>
+
+    <ng-template #elseErr>
+      <section class="no-video"> 
+        <div>Ne cerem scuze ! </div>
+        <div>Video indisponibil momentan.</div>
+      </section>
+    </ng-template>
+  </mat-dialog-content>
+</div>
+
+<mat-dialog-actions ALIGN="end">
+  <button mat-button mat-dialog-close cdkFocusInitial (click)='closeDialog()'>Close</button>
+</mat-dialog-actions>
+
+
+

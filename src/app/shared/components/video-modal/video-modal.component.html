@@ -1,0 +1,38 @@
+<div *ngIf="dataVideoModal.length === 0; else elseBlock">
+  <app-spinner></app-spinner>
+</div>
+<ng-template #elseBlock>
+  <div *ngFor="let value of dataVideoModal, let i = index " class="video-modal-section">
+
+    <div *ngIf="i === whichSlide">
+      <h2 mat-dialog-title class="modal-video-title">{{value.headline}}</h2>
+    
+      <mat-dialog-content class="mat-typography">
+        <video
+          *ngIf="state; else elseErr"
+          width="600"
+          autoplay
+          controls
+          controlsList="nodownload"
+          disablePictureInPicture
+        >
+          <source
+            [src]="value.video"
+            type="video/mp4"
+          >
+        </video>
+
+        <ng-template #elseErr>
+          <section class="no-video"> 
+            <div>Ne cerem scuze ! </div>
+            <div>Video indisponibil momentan.</div>
+          </section>
+        </ng-template>
+      </mat-dialog-content>
+    </div>
+  </div>
+
+  <mat-dialog-actions ALIGN="end">
+    <button mat-button mat-dialog-close cdkFocusInitial (click)='closeDialog()'>Close</button>
+  </mat-dialog-actions>
+<ng-template>

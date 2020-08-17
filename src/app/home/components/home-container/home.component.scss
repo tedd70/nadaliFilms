@@ -1,0 +1,97 @@
+.container {
+  height: 100%;
+  width: 100%;
+  // position: absolute;
+  // top: 0;
+
+  .about-gallery {
+    margin-top: -160px;
+    margin-bottom: 176px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+     
+    div {
+      position: relative;
+
+      span {
+        font-weight: 800;
+        font-size: 40px;
+        color: #ffffff;
+        display: block;
+        pointer-events: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+      }
+  
+      button { 
+        border: 15px solid #ffffff; 
+        height: 320px;
+        width: 480px;
+        box-shadow: 0 4px 28px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: all 0.4s ease-in-out;
+        display: block;
+        z-index: 9;
+        border-radius: 8px;
+        cursor: pointer;
+        outline: 0;
+  
+        &:hover {
+          transform: scale(0.9);
+        }
+      }
+
+      &:last-of-type() {
+        margin-right: 0;
+      }
+    }
+
+    .despre-noi {
+        background-image: url('/assets/images/despre-noi.jpg');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        margin-right: 16px;
+    }
+
+    .galerie {
+        background-image: url('/assets/images/galerie.jpg');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
+  }
+
+  .box-services {
+
+    .title-servicii {
+      display: flex;
+      justify-content: center;
+    }
+
+    app-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+
+  .contact-section {
+    margin-bottom: 48px;
+    margin-top: 104px;
+
+    .title-contact {
+      display: flex;
+      justify-content: center;
+      
+      h1 {
+        margin-bottom: 48px;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "firstName": "Dan-Iulian",
+    "img" : "/assets/images/dad.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque in libero at nisl fermentum laoreet. Nunc in consequat magna.Phasellus porttitor nulla ligula, sed auctor sapien blandit eget.Fusce nec ultricies dui. Praesent bibendum rhoncus justo, sed dapibus nulla.In qus magna non nibh fringilla porta at non metus. Donec ac turpis sed nulla convallis efficitur.Integer quis porttitor nibh, vel venenatis ante.Vestibulum rhoncus lacus vel turpis maximus, et euismod sem varius.",
+    "job": "Cameraman profesionist"
+  },
+  {
+    "id": 2,
+    "firstName": "Tiberiu-Stefan",
+    "img" : "/assets/images/me.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque in libero at nisl fermentum laoreet. Nunc in consequat magna.Phasellus porttitor nulla ligula, sed auctor sapien blandit eget.Fusce nec ultricies dui. Praesent bibendum rhoncus justo, sed dapibus nulla.In qus magna non nibh fringilla porta at non metus. Donec ac turpis sed nulla convallis efficitur.Integer quis porttitor nibh, vel venenatis ante.Vestibulum rhoncus lacus vel turpis maximus, et euismod sem varius.",
+    "job": "Cameraman profesionist"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "wedding": [
+    {
+      "id": 1,
+      "title": "Nunta ta mult visată este ocupația noastră",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque in libero at nisl fermentum laoreet. Nunc in consequat magna.Phasellus porttitor nulla ligula, sed auctor sapien blandit eget.Fusce nec ultricies dui. Praesent bibendum rhoncus justo, sed dapibus nulla.In qus magna non nibh fringilla porta at non metus. Donec ac turpis sed nulla convallis efficitur.Integer quis porttitor nibh, vel venenatis ante.Vestibulum rhoncus lacus vel turpis maximus, et euismod sem varius.",
+      "image" : "/assets/images/fotografie-nunta.jpg",
+      "visible": false
+    }
+  ],
+
+  "christening": [
+    {
+      "id": 2,
+      "title": "Ne dorim să fim lângă voi la Taina Botezului",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque in libero at nisl fermentum laoreet. Nunc in consequat magna.Phasellus porttitor nulla ligula, sed auctor sapien blandit eget.Fusce nec ultricies dui. Praesent bibendum rhoncus justo, sed dapibus nulla.In qus magna non nibh fringilla porta at non metus. Donec ac turpis sed nulla convallis efficitur.Integer quis porttitor nibh, vel venenatis ante.Vestibulum rhoncus lacus vel turpis maximus, et euismod sem varius.",
+      "image" : "/assets/images/fotografii-botez1.jpg",
+      "visible": false
+    }
+  ],
+
+  "eveniments": [
+    {
+      "id": 3,
+      "title": "Vrem sa surprindem evenimente speciale din viața ta",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque in libero at nisl fermentum laoreet. Nunc in consequat magna.Phasellus porttitor nulla ligula, sed auctor sapien blandit eget.Fusce nec ultricies dui. Praesent bibendum rhoncus justo, sed dapibus nulla.In qus magna non nibh fringilla porta at non metus. Donec ac turpis sed nulla convallis efficitur.Integer quis porttitor nibh, vel venenatis ante.Vestibulum rhoncus lacus vel turpis maximus, et euismod sem varius.",
+      "image" : "/assets/images/alte-evenimente2.jpg",
+      "visible": false
+    }
+  ]
+}

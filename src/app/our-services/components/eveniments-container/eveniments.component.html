@@ -1,0 +1,18 @@
+<section class="eveniments-container">
+  <div *ngFor="let value of evenimentsServicesData">
+    <div class="eveniments-title">
+      <h1>{{ value.title }}</h1>
+    </div>
+
+    <div class="eveniments-content">
+      <div class="image-service">
+        <img src={{value.image}} alt="evenimente">
+      </div>
+
+      <div class="description">
+        <p [class.show]="show">{{ value.text }}</p>
+        <button (click)="show = !show">{{ show ? 'Vezi mai puțin': '...Vezi mai mult' }}</button>
+      </div>
+    </div>
+  </div>
+</section>

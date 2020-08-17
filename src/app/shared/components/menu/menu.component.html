@@ -1,0 +1,44 @@
+<button 
+  mat-icon-button 
+  [matMenuTriggerFor]="menu" 
+  class="main-menu"
+>
+  <span>
+    <i class="material-icons">menu</i>
+    <p>Meniu</p>
+  </span>
+</button>
+
+<mat-menu #menu="matMenu">
+  <button mat-menu-item class="menu-each-button" (click)="goToGaleryPage()">
+    <i class="material-icons">video_library</i>
+    <span>Galerie video</span>
+  </button>
+
+  <button mat-menu-item [matMenuTriggerFor]="myServices" class="menu-each-button">
+    <i class="material-icons">list</i>
+    <span>Serviciile noastre</span>
+  </button>
+
+  <!-- <div> -->
+    <button mat-menu-item class="menu-each-button" (click)="goToContactPage()">
+      <i class="material-icons">chat</i>
+      <span>Contact</span>
+    </button>
+  <!-- </div> -->
+</mat-menu>
+
+<mat-menu #myServices="matMenu">
+  <button mat-menu-item class="menu-each-button" (click)="goToWeddingPage()">
+    <!-- <i class="material-icons">contact_support</i> -->
+    <span>Nuntă</span>
+  </button>
+  <button mat-menu-item class="menu-each-button" (click)="goToChristeningPage()">
+    <!-- <i class="material-icons">contact_support</i> -->
+    <span>Botez</span>
+  </button>
+  <button mat-menu-item class="menu-each-button" (click)="goToEvenimentsPage()">
+    <!-- <i class="material-icons">contact_support</i> -->
+    <span>Alte Evenimente</span>
+  </button>
+</mat-menu>

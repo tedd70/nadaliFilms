@@ -1,0 +1,14 @@
+<section class="layout-header">
+  <app-menu
+    (galery)="goToGaleryPage()"
+    (home)="goToHomePage()"
+    (wedding)="goToWeddingPage()"
+    (christening)="goToChristeningPage()"
+    (eveniments)="goToEvenimentsPage()"
+    (contact)="goToContactPage()"
+  >
+</app-menu>
+  <button class="logo" (click)="goToHomePage()" title="Back to home page">
+    <img src="/assets/images/logo.png" alt="logo">
+  </button>
+</section>

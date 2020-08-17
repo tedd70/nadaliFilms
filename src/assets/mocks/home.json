@@ -1,0 +1,60 @@
+{
+"aboutUsData" :
+  [
+    {
+      "id": 1,
+      "firstName": "Dan",
+      "img" : "/assets/images/dad.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque in libero at nisl fermentum laoreet. Nunc in consequat magna.Phasellus porttitor nulla ligula, sed auctor sapien blandit eget.Fusce nec ultricies dui. Praesent bibendum rhoncus justo, sed dapibus nulla.In qus magna non nibh fringilla porta at non metus. Donec ac turpis sed nulla convallis efficitur.Integer quis porttitor nibh, vel venenatis ante.Vestibulum rhoncus lacus vel turpis maximus, et euismod sem varius.",
+      "job": "Cameraman profesionist"
+    },
+    {
+      "id": 2,
+      "firstName": "Tiberiu-Stefan",
+      "img" : "/assets/images/me.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque in libero at nisl fermentum laoreet. Nunc in consequat magna.Phasellus porttitor nulla ligula, sed auctor sapien blandit eget.Fusce nec ultricies dui. Praesent bibendum rhoncus justo, sed dapibus nulla.In qus magna non nibh fringilla porta at non metus. Donec ac turpis sed nulla convallis efficitur.Integer quis porttitor nibh, vel venenatis ante.Vestibulum rhoncus lacus vel turpis maximus, et euismod sem varius.",
+      "job": "Cameraman profesionist"
+    }
+  ],
+"boxServicesData":
+  [
+    {
+    "id": 1,
+    "boxName": "Nuntă",
+    "image" : "/assets/images/nunta.jpg"
+    },
+    {
+    "id": 2,
+    "boxName": "Botez",
+    "image" : "/assets/images/botez.jpg"
+    },
+    {
+    "id": 3,
+    "boxName": "Alte evenimente",
+    "image" : "/assets/images/alte-evenimente.jpg"
+    }
+  ],
+"slides":
+  [
+    {
+      "id": 0,
+      "headline": "Clip nuntă",
+      "ghilimele": "/assets/images/ghilimele.png",
+      "src":
+        "/assets/images/video-foto.jpg",
+      "text": "Nu iubim cu adevărat decât atunci când iubim fără motive.",
+      "authorName": "Anatole France",
+      "video": "/assets/videos/tom.mp4"
+    },
+    {
+      "id": 1,
+      "headline": "Clip botez",
+      "ghilimele": "/assets/images/ghilimele.png",
+      "src":
+      "/assets/images/fotografii-botez.jpg",
+      "text": "Sufletul curat al unui nou născut, este o binecuvântare de la Dumnezeu!",
+      "authorName": "Nicolae Steinhardt",
+      "video": ""
+    }
+  ]
+}

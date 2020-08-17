@@ -1,0 +1,30 @@
+{
+  "title": "Galeria Noastră",
+  "videos":
+  [
+    {
+      "videoId": 0,
+      "videoImage": "/assets/images/video-foto.jpg",
+      "videoValue": "/assets/videos/tom.mp4",
+      "videoTitle": "Nunta Andrei & Andreea"
+    },
+    {
+      "videoId": 1,
+      "videoImage":"/assets/images/fotografii-botez.jpg",
+      "videoValue": "",
+      "videoTitle": "Taina Sfantului Botez & Matei"
+    },
+    {
+      "videoId": 2,
+      "videoImage":"/assets/images/fotografii-botez.jpg",
+      "videoValue": "",
+      "videoTitle": "Nunta Marvel & Miruna"
+    },
+    {
+      "videoId": 3,
+      "videoImage":"/assets/images/fotografii-botez.jpg",
+      "videoValue": "",
+      "videoTitle": "Nunta Anca & Costel"
+    }
+  ]
+}

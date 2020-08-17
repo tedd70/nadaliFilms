@@ -1,0 +1,21 @@
+.layout-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 16px 0;
+  background-color: #1a232b;
+  opacity: 0.8;
+  // position: fixed;
+  // top: 0;
+  width: 100%;
+  overflow: hidden;
+  // z-index: 11;
+
+  .logo {
+    // z-index: 9;
+    background-color: #1a232b;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+  }
+}

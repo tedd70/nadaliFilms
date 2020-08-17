@@ -1,0 +1,10 @@
+<div *ngFor="let value of dataBox" class="each-box">
+  <a *ngIf="dataBox" [routerLink]="['/servicii/' + value.id]" class="box-link">
+    <img src="{{value.image}}">
+    <h3>{{value.boxName}}</h3>
+    <div class="mai-multe-detalii">
+      <p>mai multe detalii</p>
+      <i class="material-icons">chevron_right</i>
+    </div>
+  </a>
+</div>

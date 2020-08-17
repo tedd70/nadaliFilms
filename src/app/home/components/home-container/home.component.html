@@ -1,0 +1,29 @@
+<section class="container">
+  <app-carousel [slides]="slides" [animationType]="animationType"></app-carousel>
+
+  <section class="about-gallery">
+    <div>
+      <span>Despre noi</span>
+      <button class="despre-noi" (click)="openModal()"></button>
+    </div>
+    <div>
+      <span>Galerie</span>
+      <button class="galerie" (click)="goToGalery()"></button>
+    </div>
+  </section>
+
+  <section *ngIf="boxServicesData" class="box-services">
+    <div class="title-servicii">
+      <h1>Servicii</h1>
+    </div>
+    <app-box [dataBox]="boxServicesData"></app-box>
+  </section>
+
+  <section class="contact-section">
+    <div class="title-contact">
+      <h1 id="contact">Contact</h1>
+    </div>
+
+    <app-contact></app-contact>
+  </section>
+</section> 

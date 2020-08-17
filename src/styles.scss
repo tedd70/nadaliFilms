@@ -1,0 +1,112 @@
+/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+
+.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #496077;
+  font-size: 48px;
+  margin: 0 0 72px 0;
+  font-style: italic;
+}
+
+.wedding-container, .christening-container, .eveniments-container {
+
+  .wedding-title, .christening-title, .eveniments-title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    h1 {
+      text-transform: initial;
+      margin-top: 48px;
+      font-weight: lighter;
+    }
+  }
+
+  .wedding-content, .christening-content, .eveniments-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+
+    .image-service {
+
+      img {
+        height: 360px;
+        width: 520px;
+        border-radius: 16px;
+        border-bottom-right-radius: 0px;
+      }
+    }
+
+    .description {
+      background-color: #ffffff;
+      border-radius: 16px;
+      padding: 24px;
+      // height: 296px;
+      height: 100%;
+      width: 480px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      display: block;
+      margin-top: 360px;
+      border-top-left-radius: 0px;
+        
+      p {
+        color: #496077;
+        text-align: left;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 1.6;
+        height: 80px;
+        overflow: hidden;
+        transition: all 0.4s ease-in-out;
+      }
+
+      button {
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        color: #0084ff;
+        margin-top: 8px;
+        font-weight: bold;
+        outline: 0;
+      }
+
+      .show {
+        overflow: visible;
+        height: auto;
+      }
+    }
+  }
+}
+
+.video-modal-section {
+  .no-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 24px;
+  
+    div {
+      margin-bottom: 16px;
+      font-size: 24px;
+      color: red;
+      font-style: italic;
+      opacity: 0.7;
+  
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

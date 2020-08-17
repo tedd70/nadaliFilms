@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "boxName": "Nuntă",
+    "image" : "/assets/images/nunta.jpg"
+  },
+  {
+    "id": 2,
+    "boxName": "Botez",
+    "image" : "/assets/images/botez.jpg"
+  },
+  {
+    "id": 3,
+    "boxName": "Alte evenimente",
+    "image" : "/assets/images/alte-evenimente.jpg"
+  }
+]

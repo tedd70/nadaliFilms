@@ -1,0 +1,26 @@
+[
+  {
+    "headline": "Wedding",
+    "ghilimele": "/assets/images/ghilimele.png",
+    "src":
+      "/assets/images/video-foto.jpg",
+    "text": "Nu iubim cu adevărat decât atunci când iubim fără motive.",
+    "authorName": "Anatole France"
+  },
+  {
+    "headline": "In The Wilderness",
+    "ghilimele": "/assets/images/ghilimele.png",
+    "src":
+    "/assets/images/fotografii-botez.jpg",
+    "text": "Sufletul curat al unui nou născut, este o binecuvântare de la Dumnezeu!",
+    "authorName": "Nicolae Steinhardt"
+  },
+  {
+    "headline": "Other Eveniments",
+    "ghilimele": "/assets/images/ghilimele.png",
+    "src":
+    "/assets/images/alte-evenimente2.jpg",
+    "text": "Încă nu s-a înţeles că doar prin distracţie, pasiune şi râs se obţine o adevărată creştere culturală.",
+    "authorName": "Dario Fo"
+  }
+]

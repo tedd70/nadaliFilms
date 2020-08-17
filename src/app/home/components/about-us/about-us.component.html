@@ -1,0 +1,28 @@
+<div *ngIf="dataAboutUs.length === 0; else elseBlock">
+  <app-spinner></app-spinner>
+</div>
+<ng-template #elseBlock>
+
+  <h2 mat-dialog-title class="about-us-title"> Despre noi</h2>
+  
+  <mat-dialog-content class="mat-typography">
+    <div *ngFor="let value of dataAboutUs" class="about-us-section">
+      <div class="description">
+        <p>
+            {{ value.description }}
+        </p>
+      </div>
+    
+      <div class="informations">
+        <img src={{value.img}}>
+        <h3>{{value.firstName}}</h3>
+        <p>{{value.job}}</p>
+      </div>
+    </div>
+  </mat-dialog-content>
+  
+  <mat-dialog-actions ALIGN="start">
+    <button mat-button mat-dialog-close cdkFocusInitial (click)='closeDialog()'>Cancel</button>
+  </mat-dialog-actions>
+</ng-template>
+
